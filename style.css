@@ -1,0 +1,157 @@
+#hero {
+  background-color: #7dbb86;
+  font-family: 'Segoe UI', sans-serif;
+  background-size: 180% 180%;
+  margin: 0;
+  padding: 60px 20px;
+}
+
+body {
+  margin: 0;
+
+  text-align: center;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+}
+
+
+#navbar {
+  background-color: #47b552;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+
+.hero {
+  text-align: center;
+  margin-top: 150px;
+  color: black;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-family: 'Brush Script MT', cursive;
+  margin-bottom: 50px;
+
+
+}
+
+.hero p {
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
+.hero p strong {
+  font-weight: 600;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-content img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: 'Brush Script MT', cursive;
+  margin: 60px;
+  margin-bottom: 10px;
+
+}
+
+.hero-content p {
+  max-width: 40%;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.Parent {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+#Skills {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2rem;
+}
+
+.four {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 100px 0;
+  max-width: 1400px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.hello {
+  max-width: 600px;
+  display: inline-block;
+  margin-bottom: 80px;
+  padding: 40px;
+  padding-top: 10px;
+}
+
+p {
+  line-height: 2;
+}
+
+.foo {
+  padding: 30px;
+  background-color: #7dbb86;
+  margin-bottom: 40px;
+}
+
+footer{
+  background-color: #7dbb86;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 30px;
+
+}
+a{
+  color: #063f0c;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer{
+  color: #fff;
+  font-family: 'Segeoe UI' , sans-serif;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+@media(max-width: 768px){
+  .four{
+    grid-template-columns:1fr;
+    grid-template-rows: auto;
+  }
+
+}
